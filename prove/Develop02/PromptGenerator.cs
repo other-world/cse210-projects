@@ -20,9 +20,17 @@ public class PromptGenerator
     public string GetRandomPrompt()
     {
         var random = new Random();
-        int index = random.Next(_prompts.Count);
-        string randomPrompt = _prompts[index];
+        string randomPrompt = "";
+        if (_prompts.Count!=0){
+            int index = random.Next(_prompts.Count);
+            randomPrompt = _prompts[index];
+            _prompts.Remove(randomPrompt);
+        }
         //Console.WriteLine(randomPrompt);
+        else 
+        {
+            randomPrompt = "What else would you like to record about your day?";
+        }
         return randomPrompt;
     }
 
