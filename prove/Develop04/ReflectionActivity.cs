@@ -57,7 +57,7 @@ public class ReflectionActivity : Activity
          while (DateTime.Now < endTime)
          {
             DisplayQuestions();
-            Animate(4);
+            Animate(2);
          }
          DisplayEndingMessage();
     }
@@ -74,7 +74,7 @@ public class ReflectionActivity : Activity
         //Console.WriteLine(randomPrompt);
         else 
         {
-            randomPrompt += "";
+            randomPrompt += "No more prompts available";
         }
         randomPrompt += " ---";
         return randomPrompt;
@@ -90,7 +90,7 @@ public class ReflectionActivity : Activity
         }
         else 
         {
-            randomQuestion = "";
+            randomQuestion = "No more questions available.";
         }
         return randomQuestion;
     }

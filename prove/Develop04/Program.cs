@@ -1,3 +1,14 @@
+/* Jamie Cummings
+   CSE 210 Week 04 - Mindfullness Program
+   For the stretch challenge I did a few things. 
+   I set up code to make the prompts in the 
+   Reflection Activity not repeat. I also set up 
+   the animation as a method in the activity class. 
+   The method takes an integer that determines 
+   how many times the animation repeats. This 
+   allows some variation in its use. */
+
+
 using System;
 
 class Program
