@@ -1,0 +1,4 @@
+1000
+ChecklistGoal::Certificates::Earn enough for a degree::200::3::400::3
+SimpleGoal::Homework::Finish it::500::False
+SimpleGoal::Sleep::get some::100::False
