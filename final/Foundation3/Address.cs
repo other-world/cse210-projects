@@ -31,4 +31,8 @@ public class Address
     {
         return $"{_street}\n{_city}, {_stateProv} {_zipcode}\n{_country}";
     }
+    public void DisplayAddress()
+    {
+        Console.WriteLine($"{_street}\n{_city}, {_stateProv} {_zipcode}\n{_country}");
+    }
 }
