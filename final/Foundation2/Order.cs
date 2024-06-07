@@ -28,7 +28,7 @@ public class Order
         totalCost = shippingCost + TotalOrderCost();
         return totalCost;
     }
-    public double TotalOrderCost()
+    private double TotalOrderCost()
     {
         double ShippingTotal = 0;
         foreach (Product p in _orders)
