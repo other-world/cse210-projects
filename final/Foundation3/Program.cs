@@ -4,6 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Foundation3 World!");
+        Console.WriteLine("Program 3: Inheritance with Event Planning");
+        
     }
 }
